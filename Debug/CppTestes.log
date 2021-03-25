@@ -1,0 +1,3 @@
+﻿  CppTestes.cpp
+C:\Users\dev\Desktop\C C++\CppTestes\CppTestes\CppTestes.cpp(12,39): warning C4018: '<': signed/unsigned mismatch
+  CppTestes.vcxproj -> C:\Users\dev\Desktop\C C++\CppTestes\CppTestes\Debug\CppTestes.exe

@@ -1,0 +1,2 @@
+C:\Users\dev\Desktop\C C++\CppTestes\CppTestes\Debug\CppTestes.exe
+C:\Users\dev\Desktop\C C++\CppTestes\CppTestes\Debug\CppTestes.pdb

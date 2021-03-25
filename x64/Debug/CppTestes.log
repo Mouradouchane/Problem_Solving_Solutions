@@ -1,0 +1,2 @@
+﻿  CppTestes.cpp
+C:\Users\dev\Desktop\C C++\CppTestes\CppTestes\CppTestes.cpp(16,3): error C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
