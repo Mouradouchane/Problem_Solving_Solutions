@@ -1,12 +1,15 @@
 /*
-#include <iostream>
 #include <string>
 #include <sstream>
+#include <iostream>
 #include <exception>
-
 using namespace std;
+*/
 
-// solution =========================================
+
+// problem : https://www.hackerrank.com/challenges/inherited-code/problem
+// solution  ============================================================
+/*
 	class BadLengthException :public exception {
 	protected:
 		int nError;
@@ -18,8 +21,13 @@ using namespace std;
 			return nError;
 		}
 	};
-// ==================================================
+*/
+// =====================================================================
 
+
+
+
+/*
 bool checkUsername(string username) {
 	bool isValid = true;
 	int n = username.length();

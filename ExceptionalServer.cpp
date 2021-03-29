@@ -36,6 +36,7 @@ int main() {
 		cin >> A >> B;
 		
 
+// problem : https://www.hackerrank.com/challenges/exceptional-server/problem
 // solution ============================================
 	/*
 		try {
@@ -55,6 +56,10 @@ int main() {
 		}
 	*/
 //=====================================================
+
+
+
+
 /*
 	}
 	cout << Server::getLoad() << endl;
