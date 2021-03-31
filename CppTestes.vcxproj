@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="attribute Parser.cpp" />
+    <ClCompile Include="cavityMap.cpp" />
     <ClCompile Include="classTemplate.cpp" />
     <ClCompile Include="CppTestes.cpp" />
     <ClCompile Include="ExceptionalServer.cpp" />
