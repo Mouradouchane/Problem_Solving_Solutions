@@ -1,0 +1,2 @@
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\x64\Debug\CppTestes.exe
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\x64\Debug\CppTestes.pdb

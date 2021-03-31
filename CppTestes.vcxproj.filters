@@ -27,5 +27,20 @@
     <ClCompile Include="ExceptionalServer.cpp">
       <Filter>Source Files\hackerRank</Filter>
     </ClCompile>
+    <ClCompile Include="classTemplate.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiLevelInheritance.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualFunctions.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="attribute Parser.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="RegExPatternsandIntrotoDatabases.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

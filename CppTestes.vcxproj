@@ -139,9 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="attribute Parser.cpp" />
+    <ClCompile Include="classTemplate.cpp" />
     <ClCompile Include="CppTestes.cpp" />
     <ClCompile Include="ExceptionalServer.cpp" />
     <ClCompile Include="inheritance.cpp" />
+    <ClCompile Include="MultiLevelInheritance.cpp" />
+    <ClCompile Include="RegExPatternsandIntrotoDatabases.cpp" />
+    <ClCompile Include="VirtualFunctions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

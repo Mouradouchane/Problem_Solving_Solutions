@@ -1,3 +1,6 @@
 ﻿  CppTestes.cpp
-C:\Users\dev\Desktop\C C++\CppTestes\CppTestes\CppTestes.cpp(12,39): warning C4018: '<': signed/unsigned mismatch
-  CppTestes.vcxproj -> C:\Users\dev\Desktop\C C++\CppTestes\CppTestes\Debug\CppTestes.exe
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(8,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(19,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(26,22): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(50,27): warning C4018: '<': signed/unsigned mismatch
+  CppTestes.vcxproj -> C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\Debug\CppTestes.exe

@@ -9,6 +9,7 @@ using namespace std;
 
 // problem : https://www.hackerrank.com/challenges/virtual-functions/problem
 // solution ===============================================================
+/*
 class Person {
 protected:
     string name;
@@ -73,6 +74,7 @@ public:
 };
 
 int Student::cur_id = 0;
+*/
 //=================================================================================
 
 
