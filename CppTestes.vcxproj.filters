@@ -45,5 +45,14 @@
     <ClCompile Include="cavityMap.cpp">
       <Filter>Source Files\hackerRank</Filter>
     </ClCompile>
+    <ClCompile Include="BoxIt.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPretty.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="PreprocessorSolution.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

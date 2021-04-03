@@ -140,12 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="attribute Parser.cpp" />
+    <ClCompile Include="BoxIt.cpp" />
     <ClCompile Include="cavityMap.cpp" />
     <ClCompile Include="classTemplate.cpp" />
     <ClCompile Include="CppTestes.cpp" />
     <ClCompile Include="ExceptionalServer.cpp" />
     <ClCompile Include="inheritance.cpp" />
     <ClCompile Include="MultiLevelInheritance.cpp" />
+    <ClCompile Include="PreprocessorSolution.cpp" />
+    <ClCompile Include="PrintPretty.cpp" />
     <ClCompile Include="RegExPatternsandIntrotoDatabases.cpp" />
     <ClCompile Include="VirtualFunctions.cpp" />
   </ItemGroup>
