@@ -1,2 +1,5 @@
 ﻿  CppTestes.cpp
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(25,18): warning C4018: '<': signed/unsigned mismatch
+  PrintPretty.cpp
+  Generating Code...
   CppTestes.vcxproj -> C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\Debug\CppTestes.exe
