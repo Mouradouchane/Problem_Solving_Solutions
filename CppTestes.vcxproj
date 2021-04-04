@@ -151,6 +151,7 @@
     <ClCompile Include="PreprocessorSolution.cpp" />
     <ClCompile Include="PrintPretty.cpp" />
     <ClCompile Include="RegExPatternsandIntrotoDatabases.cpp" />
+    <ClCompile Include="setsSTL.cpp" />
     <ClCompile Include="VirtualFunctions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
