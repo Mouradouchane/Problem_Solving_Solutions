@@ -146,6 +146,7 @@
     <ClCompile Include="CppTestes.cpp" />
     <ClCompile Include="ExceptionalServer.cpp" />
     <ClCompile Include="inheritance.cpp" />
+    <ClCompile Include="MapSTL.cpp" />
     <ClCompile Include="MultiLevelInheritance.cpp" />
     <ClCompile Include="OverloadOperators.cpp" />
     <ClCompile Include="PreprocessorSolution.cpp" />

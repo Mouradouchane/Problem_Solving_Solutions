@@ -1,20 +1,24 @@
-#include <iostream>
-#include <string>
-#include <map>
 
+// problem : https://www.hackerrank.com/challenges/cpp-maps/problem
+// soultion =======================================================
+
+/*
+#include <iostream>
+#include <map>
 
 int main() {
     int Q = 0; std::cin >> Q;
+
     std::map<std::string, int> studentMap;
 
     int QueryType;
-
     std::string studentName;
     int studentMarks;
 
     while (Q != 0) {
         std::cin >> QueryType;
         std::cin >> studentName;
+
 
         if (QueryType == 1) {
             std::cin >> studentMarks;
@@ -41,3 +45,7 @@ int main() {
 
     return 0;
 }
+
+*/
+
+// =====================================================================
