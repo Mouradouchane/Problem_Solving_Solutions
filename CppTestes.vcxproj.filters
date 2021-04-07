@@ -63,5 +63,11 @@
     <ClCompile Include="MapSTL.cpp">
       <Filter>Source Files\hackerRank</Filter>
     </ClCompile>
+    <ClCompile Include="OperatorOverloading.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="dequeSTL.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
