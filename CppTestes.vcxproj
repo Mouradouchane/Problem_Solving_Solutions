@@ -143,13 +143,16 @@
     <ClCompile Include="BoxIt.cpp" />
     <ClCompile Include="cavityMap.cpp" />
     <ClCompile Include="classTemplate.cpp" />
+    <ClCompile Include="CppExceptionHandling.cpp" />
     <ClCompile Include="CppTestes.cpp" />
     <ClCompile Include="dequeSTL.cpp" />
     <ClCompile Include="ExceptionalServer.cpp" />
+    <ClCompile Include="HotelPrices.cpp" />
     <ClCompile Include="inheritance.cpp" />
     <ClCompile Include="MapSTL.cpp" />
     <ClCompile Include="MultiLevelInheritance.cpp" />
     <ClCompile Include="OperatorOverloading.cpp" />
+    <ClCompile Include="OverloadingOstreamOperator.cpp" />
     <ClCompile Include="OverloadOperators.cpp" />
     <ClCompile Include="PreprocessorSolution.cpp" />
     <ClCompile Include="PrintPretty.cpp" />
