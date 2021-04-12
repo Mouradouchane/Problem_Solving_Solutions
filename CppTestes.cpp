@@ -1,119 +1,73 @@
 #include<iostream>
+#include<algorithm>
+#include<vector>
 
 using namespace std;
 
-class A
-{
-public:
-    A() {
-        callA = 0;
-    }
-private:
-    int callA;
-    void inc() {
-        callA++;
-    }
-
-protected:
-    void func(int& a)
-    {
-        a = a * 2;
-        inc();
-    }
-public:
-    int getA() {
-        return callA;
+//Define the structs Workshops and Available_Workshops.
+//Implement the functions initialize and CalculateMaxWorkshops
+struct Workshops {
+    int start_time;
+    int duration;
+    int end_time;
+    Workshops(int start , int dur) {
+        start_time = start;
+        duration = dur;
+        end_time = start + dur;
     }
 };
 
-class B
-{
-public:
-    B() {
-        callB = 0;
-    }
-private:
-    int callB;
-    void inc() {
-        callB++;
-    }
-protected:
-    void func(int& a)
-    {
-        a = a * 3;
-        inc();
-    }
-public:
-    int getB() {
-        return callB;
-    }
-};
-
-class C
-{
-public:
-    C() {
-        callC = 0;
-    }
-private:
-    int callC;
-    void inc() {
-        callC++;
-    }
-protected:
-    void func(int& a)
-    {
-        a = a * 5;
-        inc();
-    }
-public:
-    int getC() {
-        return callC;
-    }
-};
-
-class D : public B, public C, public A {
-
-    int val;
-public:
-    //Initially val is 1
-    D() :val(1) {  }
-
-    //Implement this function
-    void update_val(int new_val) {
-
-        while (new_val > 1) {
-            if (new_val % 2 == 0) A::func(val) , new_val /= 2;
-            if (new_val % 3 == 0) B::func(val) , new_val /= 3;
-            if (new_val % 5 == 0) C::func(val) , new_val /= 5;
-        }
-    }
-    int getA() {
-        return A::getA();
-    }
-    int getC() {
-        return C::getC();
-    }
-    int getB() {
-        return B::getB();
-    }
-    //For Checking Purpose
-    void check(int); //Do not delete this line.
+struct Available_Workshops {
+    int n; // length signed up workshop's
+    std::vector<int> ends;
+    std::vector<Workshops> arr; // array of signed up workshop's
 };
 
 
-void D::check(int new_val)
-{
-    update_val(new_val);
-    cout << "Value = " << val << endl << "A's func called " << getA() << " times " << endl << "B's func called " << getB() << " times" << endl << "C's func called " << getC() << " times" << endl;
+Available_Workshops pt;
+
+Available_Workshops* initialize(int start_time[], int duration[], int N) {
+    pt.n = N;
+    for (int s = 0; s < N; s+=1) {
+        Workshops tempW(start_time[s], duration[s]);
+        pt.ends.push_back(tempW.end_time);
+        pt.arr.push_back(tempW);
+    }
+
+    return &pt;
 }
 
 
-int main()
-{
-    D d;
-    int new_val;
-    cin >> new_val;
-    d.check(new_val);
+int CalculateMaxWorkshops(Available_Workshops* ptr) {
+    int max = ptr->n;
 
+
+    for (int a = 0; a < ptr->n-1 ; a += 1) {
+        if (ptr->arr[a].start_time != ptr->arr[a+1].start_time && ptr->arr[a].end_time != ptr->arr[a+1].end_time) {
+            max -= 2;
+        }
+    }
+
+
+    return max;
+}
+
+int main(int argc, char* argv[]) {
+    int n; // number of workshops
+    cin >> n;
+    // create arrays of unknown size n
+    int* start_time = new int[n];
+    int* duration = new int[n];
+
+    for (int i = 0; i < n; i++) {
+        cin >> start_time[i];
+    }
+    for (int i = 0; i < n; i++) {
+        cin >> duration[i];
+    }
+
+    Available_Workshops* ptr;
+    ptr = initialize(start_time, duration, n);
+    cout << CalculateMaxWorkshops(ptr) << endl;
+    return 0;
 }

@@ -78,5 +78,8 @@
     <ClCompile Include="OverloadingOstreamOperator.cpp">
       <Filter>Source Files\hackerRank</Filter>
     </ClCompile>
+    <ClCompile Include="AccessingInheritedFunctions.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

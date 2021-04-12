@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AccessingInheritedFunctions.cpp" />
     <ClCompile Include="attribute Parser.cpp" />
     <ClCompile Include="BoxIt.cpp" />
     <ClCompile Include="cavityMap.cpp" />
