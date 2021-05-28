@@ -81,5 +81,8 @@
     <ClCompile Include="AccessingInheritedFunctions.cpp">
       <Filter>Source Files\hackerRank</Filter>
     </ClCompile>
+    <ClCompile Include="AttendingWorkshops.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
