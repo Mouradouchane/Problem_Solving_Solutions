@@ -152,6 +152,7 @@
     <ClCompile Include="HotelPrices.cpp" />
     <ClCompile Include="inheritance.cpp" />
     <ClCompile Include="MapSTL.cpp" />
+    <ClCompile Include="MessagesOrder.cpp" />
     <ClCompile Include="MultiLevelInheritance.cpp" />
     <ClCompile Include="OperatorOverloading.cpp" />
     <ClCompile Include="OverloadingOstreamOperator.cpp" />
