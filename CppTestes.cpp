@@ -1,9 +1,10 @@
-#include<iostream>
-#include<algorithm>
-#include<vector>
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <string>
 
 
-int main(int argc, char* argv[]) {
-   
-    return 0;
+
+int main() {
+    
 }
