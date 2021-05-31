@@ -87,5 +87,8 @@
     <ClCompile Include="MessagesOrder.cpp">
       <Filter>Source Files\hackerRank</Filter>
     </ClCompile>
+    <ClCompile Include="ClassTemplateSpecialization.cpp">
+      <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

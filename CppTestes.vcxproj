@@ -145,6 +145,7 @@
     <ClCompile Include="BoxIt.cpp" />
     <ClCompile Include="cavityMap.cpp" />
     <ClCompile Include="classTemplate.cpp" />
+    <ClCompile Include="ClassTemplateSpecialization.cpp" />
     <ClCompile Include="CppExceptionHandling.cpp" />
     <ClCompile Include="CppTestes.cpp" />
     <ClCompile Include="dequeSTL.cpp" />
