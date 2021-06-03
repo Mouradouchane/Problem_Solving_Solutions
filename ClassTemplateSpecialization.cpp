@@ -2,6 +2,7 @@
 
 // problem https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem
 // soultion O(1) =========================================================================
+/*
 template <typename T> struct Traits {
     static std::string name(int index) { // return must be string 
         // using orange in both enums for checking if 'T' is Fruit or Color
@@ -64,5 +65,5 @@ template <typename T> struct Traits {
     }
 };
 
-
+*/
 // =======================================================================================
