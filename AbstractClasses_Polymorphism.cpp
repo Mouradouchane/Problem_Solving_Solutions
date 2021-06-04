@@ -5,7 +5,6 @@
 #include <algorithm>
 #include <set>
 #include <cassert>
-
 using namespace std;
 
 struct Node{
@@ -30,18 +29,43 @@ class Cache{
 };
 
 class LRUCache : Cache{
+private :
+    std::map<int,int> maap;
+    int currentCapacity = 0;
 public:
     LRUCache(int capacity = 0){
         cp = capacity;
     }
-    ~LRUCache(){}
     void set(int key, int value){
-        
+        if(currentCapacity < cp){
+            auto it = maap.find(key);
+            if(it != maap.end()){
+                it->second += 1;
+            }
+            else{
+                maap.insert({key,value});
+                currentCapacity+=1;   
+            }
+        }
+        else{
+            std::map<int,int>::iterator min; 
+            int mn = 9999;
+            
+        for( std::map<int,int>::iterator it = maap . begin() ; it != maap.end() ; it ++){
+            if(it->second < mn){
+                min = it;
+                mn  = it->second; 
+            }
+        }
+            maap.erase(min);
+            maap.insert({key,value});
+        }
     }
     int get(int key){
-        
-        return -1;
+        auto it = maap.find(key);
+        return (it != maap.end()) ? it->second : -1;
     }
+    ~LRUCache(){}
 };
 
 int main() {
