@@ -1,4 +1,42 @@
 ﻿  CppTestes.cpp
-  attribute Parser.cpp
-  Generating Code...
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(82,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(82,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(82,13): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(82,13): message : this argument is used as a buffer size
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(84,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(84,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(84,13): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(84,13): message : this argument is used as a buffer size
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(86,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(86,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(86,13): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(86,13): message : this argument is used as a buffer size
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(227,21): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(227,21): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(227,21): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(227,21): message : this argument is used as a buffer size
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(229,21): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(229,21): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(229,21): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(229,21): message : this argument is used as a buffer size
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(231,21): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(231,21): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(231,21): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(231,21): message : this argument is used as a buffer size
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(242,21): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(242,21): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(242,21): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(242,21): message : this argument is used as a buffer size
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(244,21): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(244,21): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(244,21): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(244,21): message : this argument is used as a buffer size
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(246,21): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(246,21): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(246,21): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(246,21): message : this argument is used as a buffer size
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(57): warning C4715: 'nombre_salaire_sup': not all control paths return a value
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(77): warning C4715: 'atteint_age_retraite': not all control paths return a value
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(217): warning C4715: 'affichage_tableau_employe': not all control paths return a value
+C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\CppTestes.cpp(284): warning C4715: 'affichage_employe': not all control paths return a value
   CppTestes.vcxproj -> C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\Debug\CppTestes.exe

@@ -1,4 +1,3 @@
 C:\Users\dev\Desktop\C C++\CppTestes\CppTestes\Debug\CppTestes.exe
 C:\Users\dev\Desktop\C C++\CppTestes\CppTestes\Debug\CppTestes.pdb
 C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\Debug\CppTestes.exe
-C:\Users\dev\Desktop\C C++\CPP_HackerRank_Solutions\Debug\CppTestes.pdb

@@ -18,9 +18,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CppTestes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="inheritance.cpp">
       <Filter>Source Files\hackerRank</Filter>
     </ClCompile>
@@ -89,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="ClassTemplateSpecialization.cpp">
       <Filter>Source Files\hackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestes.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
